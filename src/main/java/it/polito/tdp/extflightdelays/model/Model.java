@@ -40,6 +40,7 @@ public class Model {
 				grafo.setEdgeWeight(edge, newPeso);
 			}
 		}
+		
 	}
 	
 	public int nVertici() {

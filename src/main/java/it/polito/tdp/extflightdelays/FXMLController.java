@@ -52,7 +52,10 @@ public class FXMLController {
     	txtResult.appendText("ELENCO ROTTE:\n");
     	for(Rotta r : this.model.getRotte()) {
     		txtResult.appendText(r.toString() + "\n");
+    		if(r.getPeso()<distanzaMinima)
+    			System.out.println(r.toString() + "\n");
     	}
+    	
     	
     	
     }
